@@ -154,6 +154,7 @@ background-color: thistle;
    border-radius: 10px;
     padding: 20px;
 background-color: thistle;
+transition: all 1s ease-in-out;
 }
 .product img{
     width: 100%;
