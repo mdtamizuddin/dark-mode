@@ -120,13 +120,17 @@ button i{
 }
 .logos{
     display: flex;
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     justify-content: space-between;
     margin-top: 100px;
-    border: 2px solid rgb(88, 88, 88);
-background-color: thistle;
-    padding: 20px;
+    margin-bottom: 100px;
+    padding: 20px 30px;
+    background-color: #d8d4d8;
+   
+}
+.logos img{
+    width: 100px;
 }
             /* product styleing start */
 /* product styleing start */
@@ -134,7 +138,7 @@ background-color: thistle;
 .products{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     grid-gap: 40px;
     
@@ -227,6 +231,9 @@ transition: all 1s ease-in-out;
     align-items: center;
     height: 400px;
     margin-bottom: 50px;
+    
+    width: 80%;
+    margin: 0 auto;
    
 }
 button{
